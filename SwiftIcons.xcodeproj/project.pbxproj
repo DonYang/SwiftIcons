@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6912F2B1EAEFA0E0011A05A /* SwiftIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6912F2A1EAEFA0E0011A05A /* SwiftIcons.swift */; };
+		F6912F451EAF23AF0011A05A /* Dripicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6912F2D1EAF1E860011A05A /* Dripicons.ttf */; };
+		F6912F461EAF23B10011A05A /* Emoji.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6912F2E1EAF1E860011A05A /* Emoji.ttf */; };
+		F6912F471EAF23B30011A05A /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6912F2F1EAF1E860011A05A /* FontAwesome.ttf */; };
+		F6912F481EAF23B50011A05A /* Icofont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6912F301EAF1E860011A05A /* Icofont.ttf */; };
+		F6912F491EAF23B80011A05A /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6912F311EAF1E860011A05A /* Ionicons.ttf */; };
+		F6912F4A1EAF23BA0011A05A /* Linearicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6912F321EAF1E860011A05A /* Linearicons.ttf */; };
+		F6912F4B1EAF23BC0011A05A /* MapIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6912F331EAF1E860011A05A /* MapIcons.ttf */; };
+		F6912F4C1EAF23BF0011A05A /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6912F341EAF1E860011A05A /* MaterialIcons.ttf */; };
+		F6912F4D1EAF23C10011A05A /* OpenIconic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6912F351EAF1E860011A05A /* OpenIconic.ttf */; };
+		F6912F4E1EAF23C30011A05A /* Stateface.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6912F361EAF1E860011A05A /* Stateface.ttf */; };
+		F6912F4F1EAF23C50011A05A /* WeatherIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F6912F371EAF1E860011A05A /* WeatherIcons.ttf */; };
+		OBJ_27 /* SwiftIconsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* SwiftIconsTests.swift */; };
+		OBJ_29 /* SwiftIcons.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* SwiftIcons.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6912F291EAEF87E0011A05A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_15;
+			remoteInfo = SwiftIcons;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6912F2A1EAEFA0E0011A05A /* SwiftIcons.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftIcons.swift; sourceTree = "<group>"; };
+		F6912F2D1EAF1E860011A05A /* Dripicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dripicons.ttf; sourceTree = "<group>"; };
+		F6912F2E1EAF1E860011A05A /* Emoji.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Emoji.ttf; sourceTree = "<group>"; };
+		F6912F2F1EAF1E860011A05A /* FontAwesome.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = FontAwesome.ttf; sourceTree = "<group>"; };
+		F6912F301EAF1E860011A05A /* Icofont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Icofont.ttf; sourceTree = "<group>"; };
+		F6912F311EAF1E860011A05A /* Ionicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ionicons.ttf; sourceTree = "<group>"; };
+		F6912F321EAF1E860011A05A /* Linearicons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Linearicons.ttf; sourceTree = "<group>"; };
+		F6912F331EAF1E860011A05A /* MapIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MapIcons.ttf; sourceTree = "<group>"; };
+		F6912F341EAF1E860011A05A /* MaterialIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = MaterialIcons.ttf; sourceTree = "<group>"; };
+		F6912F351EAF1E860011A05A /* OpenIconic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = OpenIconic.ttf; sourceTree = "<group>"; };
+		F6912F361EAF1E860011A05A /* Stateface.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Stateface.ttf; sourceTree = "<group>"; };
+		F6912F371EAF1E860011A05A /* WeatherIcons.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = WeatherIcons.ttf; sourceTree = "<group>"; };
+		OBJ_11 /* SwiftIconsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftIconsTests.swift; sourceTree = "<group>"; };
+		OBJ_13 /* SwiftIcons.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftIcons.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_14 /* SwiftIconsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; path = SwiftIconsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_29 /* SwiftIcons.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6912F2C1EAF1E6B0011A05A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				F6912F2D1EAF1E860011A05A /* Dripicons.ttf */,
+				F6912F2E1EAF1E860011A05A /* Emoji.ttf */,
+				F6912F2F1EAF1E860011A05A /* FontAwesome.ttf */,
+				F6912F301EAF1E860011A05A /* Icofont.ttf */,
+				F6912F311EAF1E860011A05A /* Ionicons.ttf */,
+				F6912F321EAF1E860011A05A /* Linearicons.ttf */,
+				F6912F331EAF1E860011A05A /* MapIcons.ttf */,
+				F6912F341EAF1E860011A05A /* MaterialIcons.ttf */,
+				F6912F351EAF1E860011A05A /* OpenIconic.ttf */,
+				F6912F361EAF1E860011A05A /* Stateface.ttf */,
+				F6912F371EAF1E860011A05A /* WeatherIcons.ttf */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		OBJ_10 /* SwiftIconsTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_11 /* SwiftIconsTests.swift */,
+			);
+			name = SwiftIconsTests;
+			path = Tests/SwiftIconsTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_13 /* SwiftIcons.framework */,
+				OBJ_14 /* SwiftIconsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 /*  */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				F6912F2C1EAF1E6B0011A05A /* Resource */,
+				OBJ_9 /* Tests */,
+				OBJ_12 /* Products */,
+			);
+			name = "";
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F6912F2A1EAEFA0E0011A05A /* SwiftIcons.swift */,
+			);
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_9 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_10 /* SwiftIconsTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		OBJ_15 /* SwiftIcons */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_16 /* Build configuration list for PBXNativeTarget "SwiftIcons" */;
+			buildPhases = (
+				OBJ_19 /* Sources */,
+				OBJ_21 /* Frameworks */,
+				F6912F441EAF23A10011A05A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftIcons;
+			productName = SwiftIcons;
+			productReference = OBJ_13 /* SwiftIcons.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		OBJ_22 /* SwiftIconsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_23 /* Build configuration list for PBXNativeTarget "SwiftIconsTests" */;
+			buildPhases = (
+				OBJ_26 /* Sources */,
+				OBJ_28 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_30 /* PBXTargetDependency */,
+			);
+			name = SwiftIconsTests;
+			productName = SwiftIconsTests;
+			productReference = OBJ_14 /* SwiftIconsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+				TargetAttributes = {
+					OBJ_15 = {
+						LastSwiftMigration = 0830;
+					};
+				};
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "SwiftIcons" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				OBJ_15 /* SwiftIcons */,
+				OBJ_22 /* SwiftIconsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6912F441EAF23A10011A05A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6912F451EAF23AF0011A05A /* Dripicons.ttf in Resources */,
+				F6912F461EAF23B10011A05A /* Emoji.ttf in Resources */,
+				F6912F471EAF23B30011A05A /* FontAwesome.ttf in Resources */,
+				F6912F4B1EAF23BC0011A05A /* MapIcons.ttf in Resources */,
+				F6912F4A1EAF23BA0011A05A /* Linearicons.ttf in Resources */,
+				F6912F4D1EAF23C10011A05A /* OpenIconic.ttf in Resources */,
+				F6912F4E1EAF23C30011A05A /* Stateface.ttf in Resources */,
+				F6912F4C1EAF23BF0011A05A /* MaterialIcons.ttf in Resources */,
+				F6912F4F1EAF23C50011A05A /* WeatherIcons.ttf in Resources */,
+				F6912F481EAF23B50011A05A /* Icofont.ttf in Resources */,
+				F6912F491EAF23B80011A05A /* Ionicons.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				F6912F2B1EAEFA0E0011A05A /* SwiftIcons.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_27 /* SwiftIconsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_15 /* SwiftIcons */;
+			targetProxy = F6912F291EAEF87E0011A05A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftIcons.xcodeproj/SwiftIcons_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftIcons;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = SwiftIcons;
+			};
+			name = Debug;
+		};
+		OBJ_18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				DEFINES_MODULE = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftIcons.xcodeproj/SwiftIcons_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftIcons;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGET_NAME = SwiftIcons;
+			};
+			name = Release;
+		};
+		OBJ_24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftIcons.xcodeproj/SwiftIconsTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				TARGET_NAME = SwiftIconsTests;
+			};
+			name = Debug;
+		};
+		OBJ_25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftIcons.xcodeproj/SwiftIconsTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				TARGET_NAME = SwiftIconsTests;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_16 /* Build configuration list for PBXNativeTarget "SwiftIcons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_17 /* Debug */,
+				OBJ_18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_2 /* Build configuration list for PBXProject "SwiftIcons" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_23 /* Build configuration list for PBXNativeTarget "SwiftIconsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_24 /* Debug */,
+				OBJ_25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
